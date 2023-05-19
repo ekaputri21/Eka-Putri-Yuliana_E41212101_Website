@@ -298,7 +298,8 @@
   <script src="{{  asset('backend/assets/vendor/php-email-form/validate.js')}}"></script>
 
   <!-- Template Main JS File -->
-  <script src="{{  asset('backend/assets/js/main.js')}}"></script>
+  <script src="{{  asset('backend/js/jquery.slimscroll.min.js')}}"></script>
+  @stack('content.js')
 
 </body>
 
